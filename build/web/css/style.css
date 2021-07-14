@@ -1,0 +1,145 @@
+body
+{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+}
+
+.container
+{
+    width: 886px;
+    height: auto;
+    margin: 0 auto;  
+}
+
+.tittle
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tittle a{
+    text-decoration: none;
+    color: #42554e;
+}
+
+.signature
+{
+    margin-right: 72px;
+    padding-top: 20px;
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+}
+.left .content img{
+    width: 86%;
+    height: auto;
+}
+
+.highlightText{
+    background-color: yellow;
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text_search
+{   
+    font-size: 13px;
+}
+.paging
+{   
+    clear: both;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: green !important;
+    pointer-events: none;
+}
+
+.number-result{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    color: #42554e;
+}
+
+.clear{
+    clear: both;
+}
+
+.main
+{
+    background-image: url(../images/bg.jpg) ;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.left
+{
+    height: auto;
+    width: 83%;
+    padding: 20px 10px 20px 80px;
+}
+
+.right{
+    padding: 20px 10px 20px 80px;
+    height: auto;
+    width: 83%;
+}
+
+.content{
+    font-size: 13px;
+    border-bottom: 1px solid #e0e0e0;  
+    width: 100%;
+    
+}
+
+@media only screen and (min-width: 886px) {
+    .left{
+        padding: 20px 10px 20px 80px;
+        width: 55%;
+    }
+    
+    .main{
+        display: flex;
+    }
+    
+    .content {
+        padding: 20px 0px 30px 0px;
+    }
+    
+    .right{
+        width: 24%;
+        padding: 0 10px 20px 15px;
+        border-left: dotted 2px #636363;
+    }
+}
+
+

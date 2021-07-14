@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 9:33:38 AM
+    Author     : LOI DV
+*/
+.newst
+{
+    font-size: 13px;
+}
+.newst span
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+}
+p .title{
+  margin: 0px;
+}
+
+.titleNews
+{
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+.contentNews
+{
+    padding-right: 5px;
+}
+.text
+{
+    font-size: 13px;
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+
+}
+.lastArticles
+{
+    padding-bottom: 1px;
+}
+.lastArticles a
+{
+    color: #42554e;
+}
+
+.image-search
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.image-search img
+{
+    width: 200px;
+}
+
+.text-search
+{   
+    font-size: 13px;
+}
+
